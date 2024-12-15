@@ -5,7 +5,6 @@ set prj_name  PROJECT_FPGA
 set bd_name design_1
 
 set file_path "${DIR_OUTPUT}/${prj_name}/${prj_name}.gen/sources_1/bd/${bd_name}/synth/${bd_name}.v"
-#set file_path "C:/VHDL_Work/Encrypt/srcs/rtl/top.v"
 
     # Open the file for reading
     set file_id [open $file_path r]
